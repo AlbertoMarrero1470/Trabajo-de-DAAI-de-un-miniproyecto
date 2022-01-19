@@ -1,1 +1,0 @@
-# Trabajo-de-DAAI-de-un-miniproyecto
