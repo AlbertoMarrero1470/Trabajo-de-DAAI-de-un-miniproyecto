@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+body{
+    width: 100%;
+}
+header{
+    width: 100%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+
+}
+.logo{
+    width: 50px;
+
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.logo img{
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px #000;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+header nav a, .inf_personal{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: .5s ease;
+}
+header nav a:hover, .inf_personal:hover{
+    background-color: #59a14b ;
+    color: white;
+}
+.centrado_contenedor_slider{
+    border: 8px solid green;
+    border-radius: 20px;
+    margin: auto;
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-slider{
+    width: 100%;
+
+    overflow-x: hidden;
+    position: relative;
+}
+.slider{
+    display: flex;
+    width: 400%;
+    height: 400px;
+    margin-left: -100%;
+}
+.slider__section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider__btn{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 50%;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider__btn:hover{
+
+}
+.slider__btn--left{
+    left: 5px;
+    margin-left: -20px;
+}
+.slider__btn--right{
+    right: 0px;
+}
+
+.contenido_slider{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-slider .foto{
+    width: 50%;
+    display: flex;
+    margin: 20px;
+    box-sizing: border-box;
+}
+.container-slider .foto img{
+    width: 100%;
+    object-fit: contain;
+}
+.container-slider .texto_slider{
+    width: 40%;
+    height: 70%;
+    overflow-y: auto;
+    margin: auto;
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-slider .texto_slider h2{
+   margin:10px 0 10px 0 ;
+}
